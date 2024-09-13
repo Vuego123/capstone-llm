@@ -8,7 +8,7 @@ default_args = {
     "owner": "airflow",
     "description": "Use of the DockerOperator",
     "depend_on_past": False,
-    "start_date": datetime(2021, 5, 1),
+    "start_date": datetime(2024, 1, 1),
     "email_on_failure": False,
     "email_on_retry": False,
     "retries": 1,
@@ -16,7 +16,7 @@ default_args = {
 }
 
 with DAG(
-    "docker_operator_dag",
+    "docker_operator_dag_3",
     default_args=default_args,
     schedule_interval="5 * * * *",
     catchup=False,

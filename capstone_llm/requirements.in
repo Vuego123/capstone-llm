@@ -1,0 +1,5 @@
+boto3
+uuid
+pyspark==3.5.1
+awscliv2
+# json
